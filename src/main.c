@@ -50,8 +50,6 @@ int main(void) {
                     addHitObj(&world, &spheres[i]);
                 }
             }
-
-            // fprintf(stderr, "%p\n", (void*)&sphereMaterial[i]);
         }
     }
 
