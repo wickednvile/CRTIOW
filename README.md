@@ -34,18 +34,10 @@
     </tr>
 </table>
 
-## Settings
-### All images were rendered with these settings
+## Image settings
 Image resolution:        2048x1152  
 Image samples per pixel: 500  
 Image max depth:         50  
-
-### Hardware used
-Hardware: Laptop  
-OS:       Fedora Linux 44  
-CPU:      Intel Celeron N4000  
-Memory:   2GB  
-Storage:  500GB HDD
 
 ## Time to render the final scene
 ```
@@ -55,6 +47,23 @@ real    200m27.546s
 user    199m11.541s
 sys     0m2.528s
 ```
+### Hardware used
+Hardware: Laptop  
+OS:       Fedora Linux 44  
+CPU:      Intel Celeron N4000  
+Memory:   2GB  
+Storage:  500GB HDD
+
+## Compilation
+This compiles and creates the final scene image or the cover of the book:
+```
+$ git clone https://github.com/wickednvile/CRTIOW
+$ cd CRTIOW
+$ make
+```
+And simply open ```a.ppm``` with your favorite image viewer! If .ppm files are not supported on your image viewer try one online!
+### NOTE
+The program does not use any GPU or any third party libraries to speed up rendering. It uses 1 core of your CPU just like in the book, which can take really long to compile.
 
 ## My thoughts
 Implementing it in C was struggling for me. I had to cut corners on some parts because C didn't have certain features and I'm no expert on the language. As for the math/physics, I didn't understand everything cause I tried doing all this within a single week, some were also pretty hard and wasn't explained clearly in the book.  
