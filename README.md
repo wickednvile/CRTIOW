@@ -1,5 +1,5 @@
 # Ray Tracing in One Weekend but in C
-"Ray Tracing in One Weekend" by Peter Shirley implemented in C by me. Code is written poorly, you have been warned.
+"Ray Tracing in One Weekend" by Peter Shirley, implemented in C by me. Code is written poorly, you have been warned.
 
 ## Images
 
@@ -35,6 +35,7 @@
 </table>
 
 ## Image settings
+### All images shown has these settings
 Image resolution:        2048x1152  
 Image samples per pixel: 500  
 Image max depth:         50  
@@ -55,7 +56,7 @@ Memory:   2GB
 Storage:  500GB HDD
 
 ## Compilation
-This compiles and creates the final scene image or the cover of the book:
+This compiles and generates the final scene image or the cover of the book:
 ```
 $ git clone https://github.com/wickednvile/CRTIOW
 $ cd CRTIOW
@@ -63,7 +64,7 @@ $ make
 ```
 And simply open ```a.ppm``` with your favorite image viewer! If .ppm files are not supported on your image viewer try one online!
 ### NOTE
-The program does not use any GPU or any third party libraries to speed up rendering. It uses 1 core of your CPU just like in the book, which can take really long to compile.
+The program does not use any GPU or any third party libraries to speed up rendering. Just like in the book, it uses 1 core of your CPU which can take really long to compile.
 
 ## My thoughts
 Implementing it in C was struggling for me. I had to cut corners on some parts because C didn't have certain features and I'm no expert on the language. As for the math/physics, I didn't understand everything cause I tried doing all this within a single week, some were also pretty hard and wasn't explained clearly in the book.  
