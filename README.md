@@ -8,7 +8,7 @@
         <th>Final Scene</th>
     </tr>
     <tr>
-        <td><img src="images/cover.png"/></td>
+        <td><img src="images/cover.jpg"/></td>
     </tr>
 </table>
 
@@ -18,8 +18,8 @@
         <th width="50%">Zooming in</th>
     </tr>
     <tr>
-        <td><img src="images/dof.png"/></td>
-        <td><img src="images/zoomingin.png"/></td>
+        <td><img src="images/dof.jpg"/></td>
+        <td><img src="images/zoomingin.jpg"/></td>
     </tr>
 </table>
 
@@ -29,8 +29,8 @@
         <th width="50%">A hollow glass sphere</th>
     </tr>
     <tr>
-        <td><img src="images/distant.png"/></td>
-        <td><img src="images/glass.png"/></td>
+        <td><img src="images/distant.jpg"/></td>
+        <td><img src="images/glass.jpg"/></td>
     </tr>
 </table>
 
