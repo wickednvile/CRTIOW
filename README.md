@@ -1,5 +1,5 @@
 # Ray Tracing in One Weekend but in C
-"Ray Tracing in One Weekend" by Peter Shirley written in C by me. Code is written poorly, you have been warned.
+"Ray Tracing in One Weekend" by Peter Shirley implemented in C by me. Code is written poorly, you have been warned.
 
 ## Images
 
