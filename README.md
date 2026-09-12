@@ -49,14 +49,14 @@ user    199m11.541s
 sys     0m2.528s
 ```
 ### Hardware used
-Hardware: Laptop  
+PC:       Laptop  
 OS:       Fedora Linux 44  
 CPU:      Intel Celeron N4000  
 Memory:   2GB  
 Storage:  500GB HDD
 
 ## Compilation
-This compiles and generates the final scene image or the cover of the book:
+This compiles and generates the final scene image of the book:
 ```
 $ git clone https://github.com/wickednvile/CRTIOW
 $ cd CRTIOW
