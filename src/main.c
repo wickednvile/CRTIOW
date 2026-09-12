@@ -73,7 +73,7 @@ int main(void) {
     cam.aspect          = 16.0/9.0;
     cam.imageWidth      = 2048;
     cam.samplesPerPixel = 500;
-    cam.maxDepth        = 10;
+    cam.maxDepth        = 50;
 
     cam.vFOV            = 20.0;
     cam.lookFrom        = (point3){ 13.0, 2.0, 3.0};
