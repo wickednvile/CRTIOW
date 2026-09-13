@@ -2,7 +2,6 @@
 "Ray Tracing in One Weekend" by Peter Shirley, implemented in C by me. Code is written poorly, you have been warned.
 
 ## Images
-
 <table>
     <tr>
         <th>Final Scene</th>
@@ -64,7 +63,7 @@ $ make
 ```
 And simply open ```a.ppm``` with your favorite image viewer! If .ppm files are not supported on your image viewer try one online!
 ### NOTE
-The program does not use any GPU or any third party libraries to speed up rendering. Just like in the book, it uses 1 core of your CPU which can take really long to compile.
+The program does not use any GPU or any third party libraries to speed up rendering. Just like in the book, it uses 1 core of your CPU which can take really long to render.
 
 ## My thoughts
 Implementing it in C was struggling for me. I had to cut corners on some parts because C didn't have certain features and I'm no expert on the language. As for the math/physics, I didn't understand everything cause I tried doing all this within a single week, some were also pretty hard and wasn't explained clearly in the book.  
